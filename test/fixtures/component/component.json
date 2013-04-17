@@ -1,0 +1,12 @@
+{
+  "name": "component",
+  "dependencies": {
+    "org/foo": "*",
+    "org/bar": "*",
+    "org/baz": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "name": "component-npm-post-install",
+  "description": "Post-install script for npm(1) which makes a component to be a valid npm module",
+  "version": "0.0.0",
+  "author": "Eldar Gabdullin <eldargab@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "component",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eldargab/component-npm-post-install"
+  },
+  "bin": {
+    "component-npm-post-install": "bin/component-npm-post-install"
+  }
+}
