@@ -1,6 +1,7 @@
 # component-npm-post-install
 
 Post-install script for `npm(1)` which makes a component to be a valid node module.
+
 It loops through a packages installed in a `node_modules` dir and creates additional
 files effectively aliasing short component names with names created by `npm(1)`.
 
@@ -12,7 +13,7 @@ Another way to consume components from node is to
 Just create a `package.json` for the component you want to publish and specify
 `component-npm-post-install` as a post install script.
 
-```
+```json
 {
   "name": "foo",
   "dependencies": {
