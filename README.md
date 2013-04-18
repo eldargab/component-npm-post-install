@@ -5,9 +5,6 @@ Post-install script for `npm(1)` which makes a component to be a valid node modu
 It loops through a packages installed in a `node_modules` dir and creates additional
 files effectively aliasing short component names with names created by `npm(1)`.
 
-Another way to consume components from node is to
-[require](https://github.com/eldargab/component-as-module) them.
-
 ## Usage
 
 Just create a `package.json` for the component you want to publish and specify
@@ -47,6 +44,11 @@ with npm
 ```
 npm install component-npm-post-install
 ```
+
+## Related
+
+Another way to consume components from node is to
+[require](https://github.com/eldargab/component-as-module) them.
 
 ## License
 
