@@ -5,6 +5,12 @@ Post-install script for `npm(1)` which makes a component to be a valid node modu
 It loops through a packages installed in a `node_modules` dir and creates additional
 files effectively aliasing short component names with names created by `npm(1)`.
 
+__Please note!__ Post install scripts are considered to be a bad practice. In
+this concrete case there should not be any practical downside.
+Nevertheless it is a break for convention. For example, some tool
+might be confused. So, please, you use this script only for private needs or
+as a temporary hack.
+
 ## Usage
 
 Just create a `package.json` for the component you want to publish and specify
