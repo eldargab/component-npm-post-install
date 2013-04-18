@@ -1,7 +1,7 @@
 {
   "name": "component-npm-post-install",
   "description": "Post-install script for npm(1) which makes a component to be a valid npm module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Eldar Gabdullin <eldargab@gmail.com>",
   "license": "MIT",
   "keywords": [
